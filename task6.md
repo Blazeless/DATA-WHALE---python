@@ -255,6 +255,8 @@ while 1:
             exit()
     pygame.display.update()
     
-    https://github.com/Blazeless/DATA-WHALE---python/blob/master/e1c46d5d4fbc7044a1381212fbada1b.png
-    https://github.com/Blazeless/DATA-WHALE---python/blob/master/a6850ca20ddb05ced31b6dfd20da46f.png
     
+    
+    
+![image](https://github.com/Blazeless/DATA-WHALE---python/blob/master/e1c46d5d4fbc7044a1381212fbada1b.png)
+![image](https://github.com/Blazeless/DATA-WHALE---python/blob/master/a6850ca20ddb05ced31b6dfd20da46f.png)
