@@ -115,26 +115,26 @@ enemy1_rect = pygame.Rect(534,612,57,43)
 enemy1_img = plane_img.subsurface(enemy1_rect)
 enemy1_down_imgs = plane_img.subsurface(pygame.Rect(267,347,57,43))
 
-# 储存敌机，管理多个对象
+#储存敌机，管理多个对象
 enemies1 = pygame.sprite.Group()
 
-# 存储被击毁的飞机
+#存储被击毁的飞机
 enemies_down = pygame.sprite.Group()
 
-# 初始化射击及敌机移动频率
+#初始化射击及敌机移动频率
 shoot_frequency = 0
 enemy_frequency = 0
 
-# 初始化分数
+#初始化分数
 score = 0
 
-# 游戏循环帧率设置
+#游戏循环帧率设置
 clock = pygame.time.Clock()
 
-# 判断游戏循环退出的参数
+#判断游戏循环退出的参数
 running = True
 
-# 游戏主循环
+#游戏主循环
 while running:
     # 控制游戏最大帧率为 60
     clock.tick(60)
@@ -238,7 +238,7 @@ while running:
     if key_pressed[K_d] or key_pressed[K_RIGHT]:
         player.moveRight()
 
-# 游戏 Game Over 后显示最终得分
+#游戏 Game Over 后显示最终得分
 font = pygame.font.Font(None, 64)
 text = font.render('Final Score: '+ str(score), True, (255, 0, 0))
 text_rect = text.get_rect()
